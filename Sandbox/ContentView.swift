@@ -18,6 +18,15 @@ func sum(_ a: Int, _ b: Int) -> Int {
     a+b
 }
 
+/// Informative documentation
+/// - Parameters:
+///   - a: number
+///   - b: number
+/// - Returns: a-b
+func subtract(_ a: Int, _ b: Int) -> Int {
+    a-b
+}
+
 struct ContentView: View {
     var body: some View {
         VStack {

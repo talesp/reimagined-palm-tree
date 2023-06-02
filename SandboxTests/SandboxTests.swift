@@ -22,6 +22,8 @@ final class SandboxTests: XCTestCase {
         XCTAssertEqual(sum(1, 2), 3)
     }
 
+    func testSubtract() throws {
+        XCTAssertEqual(subtract(3, 2), 1)
     }
 
     func testPerformanceExample() throws {
