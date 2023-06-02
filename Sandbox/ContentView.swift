@@ -9,6 +9,15 @@
 
 import SwiftUI
 
+/// Informative documentation
+/// - Parameters:
+///   - a: number
+///   - b: number
+/// - Returns: a+b
+func sum(_ a: Int, _ b: Int) -> Int {
+    a+b
+}
+
 struct ContentView: View {
     var body: some View {
         VStack {
